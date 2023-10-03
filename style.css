@@ -1,0 +1,121 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+
+  background-color: #13cc13;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+.home-page {
+  padding: 80px 0px;
+  background-color: #ecf5ec;
+  text-align: center;
+  color: #13cc13;
+  font-weight: bold;
+}
+.margin-fixed {
+  margin-left: -350px;
+  margin-right: 450px;
+  font-size: x-large;
+}
+.home-page h1 {
+  font-size: 80px;
+}
+.home-page span {
+  color: red;
+}
+.home-page p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(134, 129, 129);
+}
+.home-page h2 {
+  color: #4d0d4d;
+}
+.sample-meal {
+  width: 250px;
+  height: 200px;
+  pad: 5px;
+  font-size: 100px;
+  font-weight: 100;
+  background-color: gainsboro;
+  text-align: center;
+  color: gray;
+  border-radius: 4px;
+}
+
+.meal-wrapper h1 {
+  color: #13cc13;
+}
+.meal-wrapper h3 {
+  color: grey;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+ul li:hover {
+  padding: 4px;
+  background-color: #4d0d4d;
+  border-radius: 3px;
+}
+.order-section {
+  display: block;
+  margin: 0 auto;
+}
+.signUp {
+  color: red;
+  font-weight: 900;
+  font-size: 25px;
+}
+.dish-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.order-section {
+  margin-top: 60px;
+  margin-left: 260px;
+}
+input {
+  margin: 20px;
+  padding: 4px;
+}
+form {
+  display: block;
+  border: 2px solid #44a7ce;
+  padding: 30px;
+  width: 650px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #44a7ce;
+  font-size: 25px;
+}
+.btn {
+  padding: 8px;
+  background-color: #44a7ce;
+  border-color: #44a7ce;
+  border-radius: 4px;
+  width: 150px;
+  color: white;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+.btn:hover {
+  background-color: #73cef2;
+  border-color: #73cef2;
+}
+footer a {
+  margin-top: 25px;
+  color: gray;
+  text-decoration: none;
+  margin-left: 450px;
+  font-size: large;
+}
